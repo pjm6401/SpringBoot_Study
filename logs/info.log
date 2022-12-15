@@ -1,0 +1,71 @@
+[2022-12-16 00:35:58.627] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication Starting SpringBootStudyApplication using Java 17 on bagjeongmin-ui-MacBookPro.local with PID 38462 (/Users/bagjeongmin/Downloads/SpringBoot_Study/out/production/classes started by bagjeongmin in /Users/bagjeongmin/Downloads/SpringBoot_Study)
+[2022-12-16 00:35:58.634] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication No active profile set, falling back to 1 default profile: "default"
+[2022-12-16 00:35:59.440] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[2022-12-16 00:35:59.441] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-12-16 00:35:59.476] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.SpringBoot_Study.Repository.TestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[2022-12-16 00:35:59.476] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
+[2022-12-16 00:35:59.484] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[2022-12-16 00:35:59.485] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-16 00:35:59.515] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+[2022-12-16 00:36:00.078] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2022-12-16 00:36:00.087] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2022-12-16 00:36:00.087] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-12-16 00:36:00.087] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-12-16 00:36:00.191] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-12-16 00:36:00.191] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1506 ms
+[2022-12-16 00:36:00.356] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-16 00:36:00.408] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-12-16 00:36:00.561] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-12-16 00:36:00.654] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-12-16 00:36:01.032] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-12-16 00:36:01.062] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-12-16 00:36:01.586] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-16 00:36:01.594] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-16 00:36:01.978] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-16 00:36:02.307] [WARN ] [main] org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+[2022-12-16 00:36:02.344] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-12-16 00:36:02.368] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2022-12-16 00:36:02.386] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-16 00:36:02.386] [INFO ] [main] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2022-12-16 00:36:02.387] [INFO ] [main] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2022-12-16 00:36:02.388] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-16 00:36:02.577] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication Started SpringBootStudyApplication in 4.472 seconds (JVM running for 4.878)
+[2022-12-16 00:36:09.032] [WARN ] [http-nio-8080-exec-1] org.springframework.web.servlet.PageNotFound No mapping for GET /swagger-ui.html
+[2022-12-16 00:36:37.808] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-16 00:36:37.812] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-12-16 00:36:37.823] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-12-16 00:36:41.379] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication Starting SpringBootStudyApplication using Java 17 on bagjeongmin-ui-MacBookPro.local with PID 38496 (/Users/bagjeongmin/Downloads/SpringBoot_Study/out/production/classes started by bagjeongmin in /Users/bagjeongmin/Downloads/SpringBoot_Study)
+[2022-12-16 00:36:41.382] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication No active profile set, falling back to 1 default profile: "default"
+[2022-12-16 00:36:42.157] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[2022-12-16 00:36:42.158] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2022-12-16 00:36:42.182] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.SpringBoot_Study.Repository.TestRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[2022-12-16 00:36:42.183] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+[2022-12-16 00:36:42.190] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode
+[2022-12-16 00:36:42.192] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-16 00:36:42.224] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+[2022-12-16 00:36:42.747] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[2022-12-16 00:36:42.756] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[2022-12-16 00:36:42.756] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2022-12-16 00:36:42.756] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.68]
+[2022-12-16 00:36:42.858] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2022-12-16 00:36:42.858] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1425 ms
+[2022-12-16 00:36:43.009] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-16 00:36:43.055] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.12.Final
+[2022-12-16 00:36:43.193] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-12-16 00:36:43.274] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-12-16 00:36:43.525] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-12-16 00:36:43.556] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2022-12-16 00:36:44.008] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-16 00:36:44.014] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-16 00:36:44.376] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-16 00:36:44.677] [WARN ] [main] org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Mustache configuration, or set spring.mustache.check-template-location=false)
+[2022-12-16 00:36:44.710] [WARN ] [main] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2022-12-16 00:36:44.736] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+[2022-12-16 00:36:44.751] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-16 00:36:44.752] [INFO ] [main] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2022-12-16 00:36:44.753] [INFO ] [main] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2022-12-16 00:36:44.753] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-16 00:36:44.906] [INFO ] [main] com.example.SpringBoot_Study.SpringBootStudyApplication Started SpringBootStudyApplication in 3.911 seconds (JVM running for 4.26)
+[2022-12-16 00:42:35.723] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-16 00:42:35.727] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-12-16 00:42:35.740] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
